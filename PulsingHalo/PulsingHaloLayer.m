@@ -100,7 +100,6 @@
 
 - (void)onTrigger
 {
-    [self removeAnimationForKey:@"pulse"];
     [self addAnimation:self.animationGroup forKey:@"pulse"];
 }
 
