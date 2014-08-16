@@ -98,4 +98,10 @@
     self.animationGroup.animations = animations;
 }
 
+- (void)onTrigger
+{
+    [self removeAnimationForKey:@"pulse"];
+    [self addAnimation:self.animationGroup forKey:@"pulse"];
+}
+
 @end

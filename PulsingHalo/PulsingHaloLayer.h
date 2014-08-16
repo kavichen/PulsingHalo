@@ -23,5 +23,6 @@
 @property (nonatomic, assign) BOOL useTimingFunction;           // default: YES should use timingFunction for animation
 
 - (id)initWithRepeatCount:(float)repeatCount;
+- (void)onTrigger;
 
 @end
